@@ -1,0 +1,297 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  border: none;
+  box-sizing: border-box;
+  margin-right: 0%;
+  margin-left: 0%;
+}
+
+body {
+  background-image: linear-gradient(
+    70deg,
+    #041b2d,
+    #004e9a,
+    #428cd4,
+    #995be0,
+    #d38af5
+  );
+  color: #ffffff;
+  font-family: Noto Sans JP, sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+}
+p {
+  margin: 0%;
+  padding: 0%;
+  font-size: 20px;
+  text-align: justify;
+}
+a {
+  color: #ffffff;
+}
+.shape {
+  position: absolute;
+  width: 150px;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+.box {
+  display: flex;
+  /* transition: all 0.3s ease-in-out; */
+  z-index: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 380px;
+  height: 270px;
+  padding: 20px;
+  transition: transform 0.2s;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  color: #151375;
+  margin-bottom: 15px;
+}
+
+.box .card:hover {
+  transform: scale(1.1);
+}
+
+.card-title {
+  margin-top: 5px;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card a {
+  color: #151375;
+}
+
+.card :hover {
+  color:#ffffff ;
+}
+
+a {
+  color: #4d4ae8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Noto Sans, sans-serif;
+  margin: 0;
+}
+.container-fluid {
+  padding: 0%;
+  margin: 0%;
+}
+
+.navbar {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  display: flex;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+  margin-bottom: 0px;
+}
+
+nav ul {
+  justify-content: flex-end !important;
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  transition: transform 0.2s;
+}
+
+.navbar li:hover {
+  transform: scale(1.15);
+}
+
+.navbar a {
+  display: block;
+  position: relative;
+  color: #ffffff;
+  padding: 5px 17px 7px 17px;
+  margin-left: 12px;
+  transition: 0.3s;
+  font-size: 25px;
+  border-radius: 60px;
+  font-family: Noto, sans-serif;
+  text-decoration: none;
+}
+
+.navbar .active > a,
+.navbar li:hover > a {
+  background: #5698f0;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 25px;
+}
+
+.container0 {
+  max-width: 1500px;
+  margin: 0%;
+  height: fit-content;
+  padding-left: 25px;
+  padding-right: 50px;
+}
+
+.row {
+  display: flex;
+}
+.container {
+  max-width: 1500px;
+  margin: 0%;
+  height: fit-content;
+  padding-left: 25px;
+  padding-right: 50px;
+}
+.rowT4 {
+  display: inline-flex;
+}
+.colT4 {
+  margin-left: 40px;
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.colT4 h1 {
+  margin-bottom: 10px;
+}
+.colT4 h2 {
+  font-size: 20px;
+}
+.colT4 p {
+  font-size: 15px;
+}
+.points {
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 17px;
+}
+.points .iconify {
+  font-size: 25px;
+}
+.colT4 img {
+  margin: 0px;
+  float: right;
+  margin-right: 30px;
+}
+.col-T2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.col-T2 img {
+  margin-bottom: 100px;
+}
+
+.col-T2 h1 {
+  margin-top: 50px;
+  color: #e7e7e7;
+  font-size: 60px;
+  line-height: 80px;
+}
+
+.col-T2 h2 {
+  color: #ffffff;
+  font-size: 60px;
+  line-height: 80px;
+  margin-bottom: 50px;
+}
+
+.introbtn {
+  background-color: #1e3985;
+  border: none;
+  border-radius: 50px;
+  color: #80bfff;
+  text-align: center;
+  font-size: 27px;
+  padding: 10px;
+  width: 250px;
+  height: 60px;
+  transition: transform 0.2s;
+  cursor: pointer;
+  margin: 5px;
+  text-decoration: none;
+  position: relative;
+}
+
+.introbtn:hover {
+  transform: scale(1.05);
+}
+.introbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.introbtn {
+  display: inline-block;
+}
+
+.container1 {
+  max-width: 1500px;
+  margin: auto;
+  height: fit-content;
+  padding-left: 25px;
+  padding-right: 50px;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.rowT2 {
+  align-items: right;
+}
+.col-T3 {
+  flex-basis: 50%;
+  min-width: 300px;
+  margin-bottom: 100px;
+}
+.col-T3 h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.col-T3 img {
+  margin: 0px;
+  float: left;
+  padding-right: 20px;
+}
+
+.icon .iconify {
+  margin-top: 15px;
+  font-size: 100px;
+  color: #151375;
+}
